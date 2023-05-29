@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.start {
+    height: auto;
+}
+
+.back {
+    height: auto;
+}
+
+.text {
+    /* font-size: 5.6rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgb(248, 243, 242); */
+    display: flex;
+    font-size: 4.6rem;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 0 transparent,
+        0 0 10px #9b0475,
+        0 0 20px rgba(255, 0, 60, 0.5),
+        0 0 40px #9b0475,
+        0 0 100px #9b0475,
+        0 0 200px #9b0475,
+        0 0 300px #9b0475,
+        0 0 500px #9b0475,
+        0 0 1000px #9b0475;
+    animation: animate 3s infinite alternate;
+}
+
+.text2 {
+    /* font-size: 5.6rem;
+    -webkit-text-fill-color: rgb(231, 210, 16);
+    -webkit-text-stroke: 1px rgb(240, 237, 236); */
+    display: flex;
+    font-size: 5.0rem;
+    justify-content: center;
+    align-items: center;
+
+    text-shadow: 0 0 0 transparent,
+        0 0 10px #ff003c,
+        0 0 20px rgba(255, 0, 60, 0.5),
+        0 0 40px #ff003c,
+        0 0 100px #ff003c,
+        0 0 200px #ff003c,
+        0 0 300px #ff003c,
+        0 0 500px #ff003c,
+        0 0 1000px #ff003c;
+    animation: animate 3s infinite alternate;
+}
+
+.program_header {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 20rem;
+    flex-direction: column;
+    align-content: center;
+}
+
+.plan {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: #9b0475;
+    background-color: #ff003c;
+    color: white;
+    padding: 2rem;
+    gap: 1rem;
+    text-align: initial;
+}
+
+.plans_img {
+    width: 112px;
+    height: 50px;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding: 3rem;
+    width: inherit;
+    margin: 3rem;
+}
+
+.plan:hover {
+    z-index: 1;
+    box-shadow: 0 8px 50px rgb(236, 93, 10);
+    transform: scale(1.05);
+}
